@@ -1,0 +1,149 @@
+html{
+  background-color: aliceblue;
+}
+
+/* Home1 CSS Starts */
+.alert__banner {
+  background-color: #c2c2af;
+  clear: both;
+  height: auto;
+  overflow: visible;
+  padding: 10px 20px;
+  top: 0;
+  width: 100%;
+  z-index: 2;
+}
+.alert__banner > p {
+  margin: 0% 20%;
+}
+
+.alert__banner2 {
+  background-color: #252525;
+  clear: both;
+  color: #fffef2;
+  height: auto;
+  overflow: visible;
+  padding: 12px 20px 8px;
+  top: 0;
+  width: 100%;
+  z-index: 2;
+}
+.alert__banner2 > p {
+  margin: 0% 20%;
+}
+
+.navbar {
+  align-items: center;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  background-color: white;
+  padding: 0;
+}
+
+nav li {
+  margin: 0;
+  padding: 15px 20px;
+  color: black;
+  font-weight: 400;
+  cursor: pointer;
+  font-size: 13px;
+ 
+}
+
+
+@media (max-width: 768px) {
+  nav ul {
+    display: none;
+    /* flex-direction: column; */
+  }
+
+  nav li {
+    padding: 10px;
+  }
+}
+
+
+.home1 {
+  background-image: url("https://www.aesop.com/u1nb1km7t5q7/AGQGWYrTapcQI1NrPvsYU/11e99769c1767531dd3c12b6fce85f37/Aesop_Bar_Soaps_2023_Web_Homepage_2_Primary_Full_Bleed_Desktop_2880x1044px.jpg");
+  background-size: contain;
+  width: 100%;
+  min-height: 80vh;
+}
+
+.home1 > svg {
+  height: 40px;
+  width: 120px;
+  padding-top: 60px;
+  padding-left: 3%;
+  fill: white;
+}
+.home1 > header {
+  margin: 0% 20%;
+  color: #fffef2;
+  margin-top: -50px;
+}
+
+.home1 > a {
+  text-decoration: none;
+  color: inherit;
+  border: 1px solid #fffef2;
+  padding: 15px 55px;
+  padding-left: 5px;
+  color: #fffef2;
+  margin-right: -0.5px;
+  margin-left: 20%;
+  margin-bottom: 20px;
+}
+
+.home1 > a:hover{
+
+  background-color:white;
+  color: black;
+}
+
+/* Home1 CSS ends */
+
+/* Home2 CSS started */
+.home2{
+  padding-top: 10%;
+  padding-left: 3%;
+  height: 100vh;
+  width: 100%;
+  background-color: antiquewhite;
+}
+
+.home2__text> a {
+  text-decoration: none;
+  color: inherit;
+  border: 1px solid #fffef2;
+  padding: 15px 55px;
+  padding-left: 5px;
+  color: black;
+  margin-right: -0.5px;
+  margin-left: 0;
+  margin-bottom: 20px;
+}
+
+.home2__text > a:hover{
+
+  background-color:white;
+  color: black;
+}
+
+.home2__text >p {
+  font-family: Arial, sans-serif; /* Change the font-family as needed */
+  line-height: 1.5; /* Adjust line height as needed for readability */
+  max-width: 20em; /* Controls the maximum character length per line (10 characters x 2 rows) */
+  padding: 10px; /* Add some padding for spacing */
+}
+
+.cards{
+  margin-top: 5%;
+}
+
+
+
